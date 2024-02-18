@@ -9,3 +9,5 @@
 
 **吐槽**：Lab1里面需要unlock的case好多，不过确实在逻辑运算上学到了一些之前不知道的东西。
 [官方给的debug小技巧文档](https://inst.eecs.berkeley.edu/~cs61a/fa20/articles/debugging.html)
+
+Lab01:2024.2.19凌晨全部完成，包括附加题！
