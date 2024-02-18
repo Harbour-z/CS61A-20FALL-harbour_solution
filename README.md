@@ -6,3 +6,6 @@
 
 **Note1**: 关于`True or 1 / 0 or False`为什么是True而不是一个Error?
 在 Python 中，布尔运算符 or 是一个短路运算符。当使用 or 运算符时，Python 会从左到右逐个计算每个表达式，一旦找到一个为 True 的表达式，就会立即返回该值，而不再继续计算后面的表达式。
+
+**吐槽**：Lab1里面需要unlock的case好多，不过确实在逻辑运算上学到了一些之前不知道的东西。
+[官方给的debug小技巧文档](https://inst.eecs.berkeley.edu/~cs61a/fa20/articles/debugging.html)
