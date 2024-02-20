@@ -11,3 +11,5 @@
 [官方给的debug小技巧文档](https://inst.eecs.berkeley.edu/~cs61a/fa20/articles/debugging.html)
 
 Lab01:2024.2.19凌晨全部完成，包括附加题！
+
+2024.2.20：再一次感慨John教授讲课水平之高以及这门课程设计的内容质量之高。关于为什么有call function这种模式后我们还需要有control这种模式, John教授用sqrt函数在传递负值会报错的例子说明了当调用函数时，传入其中的每个参数都会被赋值，进而可能引发错误，而control模式只会执行其中一部分，这就是两种statement的区别以及为什么不用一个执行if或者其他control功能的函数来代替这种statement的原因。
