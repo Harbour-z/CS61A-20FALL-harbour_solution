@@ -1,5 +1,5 @@
-from random import randint
-lis=[]
-for i in range(100):
-    lis.append(randint(1,100))
-lis.sort()
+def print_all(x):
+    print(x)
+    return print_all
+
+print_all(5)
