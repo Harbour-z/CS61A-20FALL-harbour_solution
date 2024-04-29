@@ -71,7 +71,7 @@ def double_eights(n):
     if flag != 2:
         print(False)
     
-double_eights(88)
+
     
 
 
