@@ -1,7 +1,9 @@
 # CS61A-20FALL-harbour_solution
+
 ```
 本仓库是我个人在学习过程中对hw, lab, project解答的存储，也用来收藏备份一些相关资源。
 ```
+
 受 https://csdiy.wiki/ 的影响，准备系统学习CS61a课程，以前学习的零碎编程知识十分不成体系，要达到能独立完成项目的程度十分困难，希望通过国外的名校课程来建立自己完成的CS知识体系。
 
 **Note1**: 关于`True or 1 / 0 or False`为什么是True而不是一个Error?
@@ -19,3 +21,11 @@ Lab01:2024.2.19凌晨全部完成，包括附加题！
 2024.4.22: 最近在学校真的忙到爆炸，重拾起来这个课程准备在学期末前把它搞完，想用这个作为自己的项目经历来参加转专业面试。
 
 2024.4.30:忙里偷闲看完了lecture8的内容，讲述了递归函数的用法，这个最常见的例子就是阶乘，感觉很有意思。加油！希望五一期间能多推一点进度。
+
+2024.5.5：完成了disc03，主要讲的是递归函数相关内容。
+
+* 递归函数构建的前提是找到base case（例如阶乘中0和1的情况），这样可以防止后面陷入死循环。
+
+* Simplify your problem, and assume that a recursive call for this new problem will simply work. This is called "leap of faith".
+
+* Recursion can be separated into two things: "internal correctness" and not running forever(known as "halting")
